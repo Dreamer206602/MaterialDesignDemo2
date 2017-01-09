@@ -38,8 +38,8 @@ public class Main2Activity extends Activity implements View.OnClickListener {
             case R.id.btn_one:
                 startActivity(new Intent(this, MainActivity.class));
                 break;
-
             case R.id.btn_two:
+                startActivity(new Intent(this,ZhiFuBaoDetailActivity.class));
                 break;
         }
 
